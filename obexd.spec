@@ -1,11 +1,11 @@
 Name:		obexd
-Version:	0.15
+Version:	0.16
 Release:	%mkrel 1
 Summary:	D-Bus service for Obex Client access
 
 Group:		Communications
 License:	GPLv2+
-Source0:	http://www.kernel.org/pub/linux/bluetooth/obexd-%{version}.tar.bz2
+Source0:	http://www.kernel.org/pub/linux/bluetooth/obexd-%{version}.tar.gz
 Url:		http://www.bluez.org/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
@@ -40,4 +40,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README AUTHORS doc/client-api.txt test/send-files
 %{_libexecdir}/obex-client
 %{_datadir}/dbus-1/services/obex-client.service
-
