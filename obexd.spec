@@ -1,5 +1,5 @@
 Name:		obexd
-Version:	0.16
+Version:	0.17
 Release:	%mkrel 1
 Summary:	D-Bus service for Obex Client access
 
@@ -29,11 +29,11 @@ other Bluetooth-equipped devices.
 chmod -x test/send-files
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
