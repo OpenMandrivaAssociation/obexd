@@ -1,5 +1,5 @@
 Name:		obexd
-Version:	0.23
+Version:	0.28
 Release:	%mkrel 1
 Summary:	D-Bus service for Obex Client access
 
