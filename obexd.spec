@@ -13,6 +13,7 @@ BuildRequires:	glib2-devel
 BuildRequires:	dbus-devel
 BuildRequires:	bluez-devel >= 4.0
 BuildRequires:	openobex-devel
+BuildRequires:  libical-devel
 
 %description
 obexd contains obex-client, a D-Bus service to allow sending files
