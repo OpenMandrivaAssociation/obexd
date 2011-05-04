@@ -1,6 +1,6 @@
 Name:		obexd
 Version:	0.40
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	D-Bus service for Obex Client access
 
 Group:		Communications
