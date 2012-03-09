@@ -11,7 +11,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:	glib2-devel
 BuildRequires:	dbus-devel
-BuildRequires:	bluez-devel >= 4.0
+BuildRequires:	bluez-devel >= 4.99
 BuildRequires:	openobex-devel
 BuildRequires:  libical-devel
 
