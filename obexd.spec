@@ -1,5 +1,5 @@
 Name:		obexd
-Version:	0.45
+Version:	0.46
 Release:	%mkrel 1
 Summary:	D-Bus service for Obex Client access
 
@@ -7,7 +7,6 @@ Group:		Communications
 License:	GPLv2+
 Source0:	http://www.kernel.org/pub/linux/bluetooth/obexd-%{version}.tar.gz
 Url:		http://www.bluez.org/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:	glib2-devel
 BuildRequires:	dbus-devel
@@ -33,11 +32,7 @@ chmod -x test/send-files
 rm -rf %{buildroot}
 %makeinstall_std
 
-%clean
-rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root,-)
 %doc README AUTHORS doc/client-api.txt test/send-files
 %{_libexecdir}/obex-client
 %{_datadir}/dbus-1/services/obex-client.service
