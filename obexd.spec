@@ -1,8 +1,7 @@
 Summary:	D-Bus service for Obex Client access
 Name:		obexd
-Version:	0.46
-Release:	2
-Epoch:		1
+Version:	0.48
+Release:	4
 Group:		Communications
 License:	GPLv2+
 Url:		http://www.bluez.org/
@@ -32,4 +31,3 @@ other Bluetooth-equipped devices.
 %doc README AUTHORS doc/client-api.txt
 %{_libexecdir}/obex-client
 %{_datadir}/dbus-1/services/obex-client.service
-
