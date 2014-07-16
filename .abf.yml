@@ -1,2 +1,4 @@
+removed_sources:
+  obexd-0.48.tar.xz: b3af03a77896cfd4cdf09da5f75ba50220bced20
 sources:
-  "obexd-0.48.tar.xz": b3af03a77896cfd4cdf09da5f75ba50220bced20
+  obexd-0.46.tar.xz: 9042656985429f246a29707ad0deb033e545f38a
