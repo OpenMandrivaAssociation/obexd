@@ -1,7 +1,7 @@
 Summary:	D-Bus service for Obex Client access
 Name:		obexd
 Version:	0.48
-Release:	14
+Release:	15
 Group:		Communications
 License:	GPLv2+
 Url:		http://www.bluez.org/
