@@ -4,7 +4,7 @@ Version:	0.48
 Release:	15
 Group:		Communications
 License:	GPLv2+
-Url:		http://www.bluez.org/
+Url:		https://www.bluez.org/
 Source0:	http://www.kernel.org/pub/linux/bluetooth/obexd-%{version}.tar.xz
 BuildRequires:	pkgconfig(bluez)
 BuildRequires:	pkgconfig(dbus-1)
