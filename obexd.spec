@@ -6,6 +6,11 @@ Group:		Communications
 License:	GPLv2+
 Url:		https://www.bluez.org/
 Source0:	http://www.kernel.org/pub/linux/bluetooth/obexd-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(bluez)
 BuildRequires:	pkgconfig(dbus-1)
 BuildRequires:	pkgconfig(glib-2.0)
